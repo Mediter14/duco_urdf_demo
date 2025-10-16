@@ -1,30 +1,20 @@
-import asyncio
+from asyncio import sleep
 from vuer import Vuer, VuerSession
 from vuer.schemas import Urdf
-import os
 
-desktop_path = "/home/yifan2577923879/Desktop"
-urdf_path = os.path.join(desktop_path, "test.urdf")
+app = Vuer()
 
-# 检查文件是否存在
-print("检查 URDF 文件:", os.path.exists(urdf_path))
-print("检查 static_root 目录:", os.path.exists(desktop_path))
-
-# 明确指定静态文件目录
-app = Vuer(static_root=desktop_path, debug=True)
 
 @app.spawn(start=True)
-async def main(session: VuerSession):
-    # 告诉 Vuer 你的 URDF 在 /static 路径下
-    session.upsert @ Urdf(
-        src="/static/111.urdf",  # 非本地路径！一定要 /static 开头
+async def main(proxy: VuerSession):
+    proxy.upsert @ Urdf(
+        src="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/test.urdf",
+        jointValues={},
+        rotation=[3.14/2 + 3.14, 0, 0],
         position=[0, 0, 0],
-        rotation=[0, 0, 0],
-        scale=[1000, 1000, 1000],  # 若 STL 是毫米制
-        key="duco_arm"
+        key="duco_model",
     )
 
+    # keep the session alive.
     while True:
-        await asyncio.sleep(1)
-
-app.run()
+        await sleep(10)
