@@ -26,7 +26,8 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/base_link.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/base_link.STL
+" scale="1000 1000 1000"/>
       </geometry>
       <material
         name="">
@@ -40,7 +41,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/base_link.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/base_link.STL" scale="1000 1000 1000"/>
       </geometry>
     </collision>
   </link>
@@ -66,7 +67,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_1.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_1.STL" scale="1000 1000 1000"/>
       </geometry>
       <material
         name="">
@@ -80,7 +81,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_1.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_1.STL" scale="1000 1000 1000"/>
       </geometry>
     </collision>
   </link>
@@ -124,7 +125,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_2.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_2.STL" scale="1000 1000 1000"/>
       </geometry>
       <material
         name="">
@@ -138,7 +139,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_2.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_2.STL" scale="1000 1000 1000"/>
       </geometry>
     </collision>
   </link>
@@ -182,7 +183,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_3.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_3.STL" scale="1000 1000 1000"/>
       </geometry>
       <material
         name="">
@@ -196,7 +197,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_3.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_3.STL" scale="1000 1000 1000"/>
       </geometry>
     </collision>
   </link>
@@ -240,7 +241,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_4.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_4.STL" scale="1000 1000 1000"/>
       </geometry>
       <material
         name="">
@@ -254,7 +255,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_4.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_4.STL" scale="1000 1000 1000"/>
       </geometry>
     </collision>
   </link>
@@ -298,7 +299,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_5.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_5.STL" scale="1000 1000 1000"/>
       </geometry>
       <material
         name="">
@@ -312,7 +313,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_5.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_5.STL" scale="1000 1000 1000"/>
       </geometry>
     </collision>
   </link>
@@ -356,7 +357,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_6.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_6.STL" scale="1000 1000 1000"/>
       </geometry>
       <material
         name="">
@@ -370,7 +371,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="https://raw.githubusercontent.com/Mediter14/duco_support/meshes/GCR3_618/link_6.STL" scale="1000 1000 1000"/>
+          filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/duco_support/meshes/GCR3_618/link_6.STL" scale="1000 1000 1000"/>
       </geometry>
     </collision>
   </link>
