@@ -11,7 +11,7 @@
         <mesh filename="https://raw.githubusercontent.com/Mediter14/duco_urdf_demo/main/worktable.STL"/>
       </geometry>
       <material name="gray">
-        <color rgba="1.0 0.9 1.0 1"/>
+        <color rgba="1.0 0.95 1.0 1"/>
       </material>
     </visual>
     <collision>
@@ -29,6 +29,7 @@
   </link>
 
 </robot>
+
 
 
 
